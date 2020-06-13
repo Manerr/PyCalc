@@ -31,5 +31,3 @@ def mode(data):
  for i in data:
   if data.count(i)>=t:t=i
  return t
-
-def
