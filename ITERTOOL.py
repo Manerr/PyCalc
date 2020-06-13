@@ -49,7 +49,3 @@ def takewhile(func,i):
  for j in i:
   if func(j):yield j
   else:break
-
-def mul(x,y):return x*y
-
-for i in accumulate([1,2,3,4,5],mul):print(i)
