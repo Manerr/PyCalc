@@ -1,4 +1,4 @@
-from random import randint as _
+from random import randint as _r
 def choice(seq):return seq[_r(0,len(seq)-1)]
 
 def sample(population,k):
