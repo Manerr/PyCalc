@@ -34,6 +34,7 @@ So far, it plans to include multiple functions and classes from:
 ### Usage
 
 All you've to do is just download those files  and to import them (with `from x import *` or `import x`) in your scripts. 
+##### Note that for `random` and `math` modules, they're named `pmath` and `prandom`... since they'll not be called if they was named `math` instead...
 
 ##
 
